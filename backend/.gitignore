@@ -1,20 +1,33 @@
-# Maven
+HELP.md
 target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-# Ignore Gradle GUI config
-gradle-app.setting
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
-# Eclipse
-/.classpath
-/.settings/
-/.project
-/bin/
-
-# IntelliJ
+### IntelliJ IDEA ###
 .idea
+*.iws
 *.iml
 *.ipr
-*.iws
 
-# Misc
-*.log
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
